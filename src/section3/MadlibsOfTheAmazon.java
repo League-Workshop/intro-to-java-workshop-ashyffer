@@ -28,6 +28,29 @@ public class MadlibsOfTheAmazon {
 		// Make a pop-up for the final story. You can use \n to go to the next line
 		
 
+	
+		
+		
+		
+		
+		
+		JOptionPane.showMessageDialog(null, "You are now playing a Madlibs. If you find yourself having to crosss a piranha-infested river, here is how to do it");
+String adj = 	JOptionPane.showInputDialog("Type an adjective");
+String liquid =	JOptionPane.showInputDialog("Type a liquid");
+String BodyPart = JOptionPane.showInputDialog("Type a body part");
+String verb =	JOptionPane.showInputDialog("Type a verb");
+String place  =	JOptionPane.showInputDialog("Type a place");
+JOptionPane.showMessageDialog(null, " Piranhas are more " + adj + " during the day, so cross the river at night. Piranhas are attracted to fresh " + liquid + " and will most likely "+
+		" take a bite of your " + BodyPart + " if you "+ verb + " . Whatever you do, if you have an open wound, try to find another way to get to the "+ place);	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	}
 }
 
